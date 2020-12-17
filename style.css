@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
+.navbar {
+  position: relative;
+  z-index: 1;
+  /* background-color: rgba(22, 22, 22, 0.829); */
+}
+
+.navbar-brand {
+  font-family: Viga;
+  font-size: 32px;
+}
+
+.desc {
+  font-family: Viga;
+  font-size: 25px;
+}
+
+/* Utility */
+.tombol {
+  text-transform: uppercase;
+  border-radius: 40px;
+}
+
+/* Desktop Version */
+@media (min-width: 992px) {
+  .navbar-brand,
+  .nav-link {
+    color: white !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  }
+
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+  }
+
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid blue;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+  footer {
+    font-family: Viga;
+    margin-top: 20px !important;
+    background-color: white !important;
+    font-size: 0.8em;
+  }
+}
+
+.copyright {
+  margin-top: 30px;
+  font-family: Viga;
+  font-size: 14px;
+}
+
+footer {
+  font-weight: bold;
+  font-family: Viga;
+  margin-top: auto;
+  padding: 10px;
+  text-align: center;
+  background-color: #faf9f5;
+}
